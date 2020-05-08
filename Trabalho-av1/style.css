@@ -67,3 +67,7 @@ nav#menu li: :hover {
 .foto:nth-child(5){
     animation-delay: 19s;
 }
+fieldset{
+    color: #ffffff
+    
+}
