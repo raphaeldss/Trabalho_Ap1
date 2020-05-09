@@ -11,7 +11,15 @@
         <hr>
 </head>
 <body background="imagem/fundo2.jpg">
-    <h2>Cadastro</h2>
+    <nav id="menu">
+        <ul>
+            <a href="index.html"><li>HOME</li></a>
+            <a href="index3.html"><li>PLANOS</li></a>
+            <li>CONTATOS</li>
+        </ul>       
+    </nav>
+    
+    <center>
     <form method="post" action="raphael.souza@unigranrio.br" color="#ffffff">
         <fieldset>
             <legend>CADASTRO DO ALUNO</legend>
@@ -33,8 +41,33 @@
             <label for="masculino">Masculino</label>
             <input type="radio" id="feminino" name="sexo" value="F">
             <label for="feminino">Feminino</label>
-        </fieldset>
+            <p>
+                Escolha suas atividades favoritas:
+            <input type="checkbox" id="musculacao" name="acesso"
+            value="Musculação">
+            <label for="musculacao">Musculação</label>
+            
+            <input type="checkbox" id="yoga" name="acesso"
+            value="Yôga">
+            <label for="yoga">Yôga</label>
 
+            <input type="checkbox" id="artesmaciais" name="acesso" value="Artes-Marciais">
+            <label for="artesmaciais">Artes Maciais</label>
+
+            <input type="checkbox" id="danca" name="acesso" valeu="Dança">
+            <label for="danca">Dança</label>
+
+            <input type="checkbox" id="zumba" name="acesso" valeu="Zumba-Fitness">
+            <label for="zumba">Zumba Fitness</label>
+
+            <input type="checkbox" id="spinning" name="acesso" valeu="Spinning">
+            <label for="spinning">Spinning</label></label>
+            <p>
+            <input type="submit" value="Cadastrar" onclick="window.alert('Seja bem-vindo(a) ')">
+            <input type="reset" value="Limpar">
+
+            </fieldset>    
     </form>
+</center>
 </body>
 </html>
